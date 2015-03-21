@@ -1,0 +1,266 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".CommunityService">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tim Camp"
+        android:ems="10"
+        android:id="@+id/Tim_Camp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:linksClickable="true"
+        android:autoLink="email"
+        android:ems="10"
+        android:id="@+id/email_link"
+        android:layout_below="@+id/Tim_Camp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="tcamp@eou.edu" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:linksClickable="true"
+        android:autoLink="phone"
+        android:ems="10"
+        android:id="@+id/Phone_link"
+        android:layout_below="@+id/email_link"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="13605400096" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Tyler_PaoPao"
+        android:layout_below="@+id/Phone_link"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="42dp"
+        android:text="Tyler PaoPao" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/PaoPao_Email"
+        android:linksClickable="true"
+        android:autoLink="email"
+        android:layout_below="@+id/Tyler_PaoPao"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="tpaopao@eou.edu" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/PaoPao_phone"
+        android:linksClickable="true"
+        android:autoLink="phone"
+        android:layout_below="@+id/PaoPao_Email"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="13605400096" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Jeff_McNally"
+        android:layout_marginTop="51dp"
+        android:layout_below="@+id/PaoPao_phone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Jeff McNally" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/McNally_email"
+        android:linksClickable="true"
+        android:autoLink="email"
+        android:layout_below="@+id/Jeff_McNally"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="mcnallj@eou.edu" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/McNally_phone"
+        android:linksClickable="true"
+        android:autoLink="phone"
+        android:layout_below="@+id/McNally_email"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="13605400096" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Justin Udy"
+        android:id="@+id/Justin_Udy"
+        android:layout_below="@+id/McNally_phone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="44dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="udyj@eou.edu"
+        android:id="@+id/Udy_Email"
+        android:linksClickable="true"
+        android:autoLink="email"
+        android:layout_below="@+id/Justin_Udy"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="13605400096"
+        android:id="@+id/Udy_phone"
+        android:linksClickable="true"
+        android:autoLink="phone"
+        android:layout_below="@+id/Udy_Email"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nick Roberson"
+        android:id="@+id/Nick_Roberson"
+        android:layout_below="@+id/Udy_phone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="51dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sanborn@eou.edu"
+        android:id="@+id/Roberson_Email"
+        android:linksClickable="true"
+        android:autoLink="email"
+        android:layout_below="@+id/Nick_Roberson"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="13605400096"
+        android:id="@+id/Roberson_phone"
+        android:linksClickable="true"
+        android:autoLink="phone"
+        android:layout_below="@+id/Roberson_Email"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Will Hunter"
+        android:id="@+id/Will_Hunter"
+        android:layout_above="@+id/email_link"
+        android:layout_toRightOf="@+id/Tim_Camp"
+        android:layout_marginLeft="37dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hunterw2@eou.edu"
+        android:id="@+id/Hunter_Email"
+        android:linksClickable="true"
+        android:autoLink="email"
+        android:layout_below="@+id/Will_Hunter"
+        android:layout_alignLeft="@+id/Will_Hunter"
+        android:layout_alignStart="@+id/Will_Hunter" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="13605400096"
+        android:id="@+id/Hunter_phone"
+        android:linksClickable="true"
+        android:autoLink="phone"
+        android:layout_above="@+id/Tyler_PaoPao"
+        android:layout_alignLeft="@+id/Hunter_Email"
+        android:layout_alignStart="@+id/Hunter_Email" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emory Jones"
+        android:id="@+id/Emory_Jones"
+        android:layout_above="@+id/PaoPao_Email"
+        android:layout_alignLeft="@+id/Hunter_phone"
+        android:layout_alignStart="@+id/Hunter_phone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="joneser@eou.edu"
+        android:id="@+id/Jones_Email"
+        android:linksClickable="true"
+        android:autoLink="email"
+        android:layout_alignTop="@+id/PaoPao_Email"
+        android:layout_alignLeft="@+id/Emory_Jones"
+        android:layout_alignStart="@+id/Emory_Jones" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="13605400096"
+        android:id="@+id/Jones_Phone"
+        android:linksClickable="true"
+        android:autoLink="phone"
+        android:layout_above="@+id/Jeff_McNally"
+        android:layout_alignLeft="@+id/Jones_Email"
+        android:layout_alignStart="@+id/Jones_Email" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vince Gonzales"
+        android:id="@+id/Vince_Gonzales"
+        android:layout_above="@+id/McNally_email"
+        android:layout_alignLeft="@+id/Jones_Phone"
+        android:layout_alignStart="@+id/Jones_Phone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="vgonzalez@eou.edu"
+        android:id="@+id/Gonzales_Email"
+        android:linksClickable="true"
+        android:autoLink="email"
+        android:layout_alignTop="@+id/McNally_email"
+        android:layout_alignLeft="@+id/Vince_Gonzales"
+        android:layout_alignStart="@+id/Vince_Gonzales" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="13605400096"
+        android:id="@+id/Gonzales_Phone"
+        android:linksClickable="true"
+        android:autoLink="phone"
+        android:layout_above="@+id/Justin_Udy"
+        android:layout_alignLeft="@+id/Gonzales_Email"
+        android:layout_alignStart="@+id/Gonzales_Email" />
+
+</RelativeLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="com.Ray_Walser.mountie_board_20.app" >
+
+    <application
+        android:debuggable="false"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+
+        android:label="Mountie_Board_2.0"
+        android:theme="@style/AppTheme" >
+        // This is the opening page.
+        <activity
+            android:name=".FrontPage"
+            android:label="Mountie_Board_2.0" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        //This is the fist Activity i start
+        <activity
+            android:name=".MainActivity"
+            android:label="MainActivity" >
+            <intent-filter>
+                <action android:name="com.Ray_Walser.mountie_board_20.app.MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        //This is the second Activity i start
+        <activity
+            android:name=".Class2"
+            android:label="@string/title_activity_class2" >
+            <intent-filter>
+                <action android:name="com.Ray_Walser.mountie_board_20.app.Class2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        //This is the Community Service Activity
+        <activity
+            android:name=".CommunityService"
+            android:label="@string/title_activity_community_service" >
+            <intent-filter>
+                <action android:name="com.Ray_Walser.mountie_board_20.app.CommunityService" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        // This is the Strike Board Activity
+        <activity
+            android:name=".StrikeBoard"
+            android:label="@string/title_activity_strike_board" >
+            <intent-filter>
+                <action android:name="com.Ray_Walser.mountie_board_20.app.StrikeBoard" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        // This is the Daily Schedule Activity
+        <activity
+            android:name=".Daily_Schedule"
+            android:label="@string/title_activity_daily__schedule" >
+            <intent-filter>
+                <action android:name="com.Ray_Walser.mountie_board_20.app.Daily_Schedule" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        // This is the Practice Schedule Activity
+        <activity
+            android:name=".Practice_Schedule"
+            android:label="@string/title_activity_practice__schedule" >
+            <intent-filter>
+                <action android:name="com.Ray_Walser.mountie_board_20.app.Practice_Schedule" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        // This is the Game Day Schedule
+        <activity
+            android:name=".Game_Day_Schedule"
+            android:label="@string/title_activity_game__day__schedule" >
+            <intent-filter>
+                <action android:name="com.Ray_Walser.mountie_board_20.app.Game_Day_Schedule" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        // This is the Travel page
+        <activity
+            android:name=".Travel"
+            android:label="@string/title_activity_travel" >
+            <intent-filter>
+                <action android:name="com.Ray_Walser.mountie_board_20.app.Travel" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        // This is the EOU info page
+        <activity
+            android:name=".EOU_Info"
+            android:label="@string/title_activity_eou__info" >
+            <intent-filter>
+                <action android:name="com.Ray_Walser.mountie_board_20.app.EOU_Info" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        //Calender view
+        <activity
+            android:name=".Calendar_View"
+            android:label="@string/title_activity_calendar__view" >
+            <intent-filter>
+                <action android:name="com.Ray_Walser.mountie_board_20.app.Calendar_View" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+</manifest>

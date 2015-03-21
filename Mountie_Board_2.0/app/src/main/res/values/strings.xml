@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mountie_Board_2.0</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_class2">Class2</string>
+    <string name="title_activity_community_service">CommunityService</string>
+    <string name="title_activity_strike_board">StrikeBoard</string>
+    <string name="title_activity_daily__schedule">Daily_Schedule</string>
+    <string name="title_activity_practice__schedule">Practice_Schedule</string>
+    <string name="title_activity_game__day__schedule">Game_Day_Schedule</string>
+    <string name="title_activity_travel">Travel</string>
+    <string name="title_activity_eou__info">EOU_Info</string>
+    <string name="title_activity_front_page">FrontPage</string>
+    <string name="title_activity_calendar__view">Calendar_View</string>
+    <string name="title_activity_open__pdf">Open_PDF</string>
+
+</resources>
